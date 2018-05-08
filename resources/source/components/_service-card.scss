@@ -1,0 +1,38 @@
+.service-card {
+    height: 65rem;
+    background-color: rgba($color-white, .75);
+    position: relative;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 5rem rgba($color-shadow, .6);
+
+    &__image {
+        height: 35rem;
+        background-size: cover;
+        background-blend-mode: screen;
+        border-radius: 1rem;
+
+        &--1 {
+            background-image: linear-gradient(to right bottom, $color-primary-dark, $color-primary), url(img/roller.jpg);
+        }
+    }
+
+    &__text-box {
+        position: absolute;
+        right: 1rem;
+        top: 40%;
+        background-color: rgba($color-primary-light, .5);
+    }
+
+    ul {
+        padding-top: 45rem;
+        width: 70%;
+        @include absCenter;
+        li {
+            padding: 2rem;
+
+            &:not(:last-child) {
+                border-bottom: 1px solid rgba($color-text-secondary, .65);
+            }
+        }
+    }
+}

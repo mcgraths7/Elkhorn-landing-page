@@ -1,0 +1,9 @@
+{
+  "name": "Elkhorn",
+  "version": "1.0.0",
+  "description": "Home Page for Client: Elkhorn Painting and General Construction",
+  "main": "index.html",
+  "author": "Steven McGrath",
+  "license": "MIT",
+  "private": false
+}
